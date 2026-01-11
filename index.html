@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio | Design & Code</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+        <a href="#photos">Photography</a>
+        <a href="#videos">Video</a>
+        <a href="#websites">Web</a>
+        <a href="#java">Software</a>
+        <a href="#Blog">Blogging</a>
+    </nav>
+
+    <header class="hero">
+    <div class="hero-image">
+        <div class="glow-bg"></div>
+        <img src="resources/profile.png" alt="Christian L. Pascual">
+    </div>
+    <div class="hero-text">
+        <h1>Hi, I'm Christian Pascual</h1>
+        
+        <div class="header-divider">
+            <span class="line"></span>
+            <span class="tag">Creative Technologist<i class="fa-solid fa-lightbulb"></i></span>
+        </div>
+
+        <p>Hi, I am Christian, and I do professional <b><span>Graphic and AI UGC video advertisements, UI/UX design,</span></b> website development, programming, educational writing, and blogging.</p>
+        <br>
+        <p>If you're interested, let's talk.</p>
+        <div class="contact-item">
+        <i class="fa-regular fa-envelope"></i>
+        <p>christianpascual002@gmail.com</p>
+        </div>
+        <div class="contact-item">
+            <i class="fa-solid fa-phone-flip"></i>
+            <p>09944167338</p>
+        </div>
+        <div class="contact-item">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <p>University of Negros Occidental-Recoletos</p>
+        </div>
+        <br>
+    </header>
+
+    <div class="container">
+
+
+        <section id="videos">
+            <div class="section-header">
+                <h2>AI UGC advertisements</h2>
+            </div>
+            <div class="carousel-track" id="video-t">
+                <div class="card">
+                    <div class="card-preview" id="vidID"><img src="resources\YOU_COVER.jpg" alt="Video 1"></div>
+                    <div class="card-info">
+                        <h3>Y.O.U AI UGC advertisement</h3>
+                        <p>A collection of commercial motion edits.</p>
+                        <button class="btn" onclick="op('video', 'resources/Y.O.U_UGC_AD.mp4')">Play Reel</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-track" id="video-t">
+                <div class="card">
+                    <div class="card-preview" id="vidID"><img src="resources\H-BROLL3.png" alt="Video 1"></div>
+                    <div class="card-info">
+                        <h3>HOODIE AI UGC advertisement</h3>
+                        <p>A collection of commercial motion edits.</p>
+                        <button class="btn" onclick="op('video', 'resources/Hoodie AI UGC.mp4')">Play Reel</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-track" id="video-t">
+                <div class="card" >
+                    <div class="card-preview" id="vidID"><img src="resources\BLEND_COVER.png" alt="Video 1"></div>
+                    <div class="card-info">
+                        <h3>Portable Blender AI UGC advertisement</h3>
+                        <p>A collection of commercial motion edits.</p>
+                        <button class="btn" onclick="op('video', 'resources/Blender AI UGC.mp4')">Play Reel</button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        
+        <section id="photos">
+            <div class="section-header">
+                <h2>Graphic advertisements</h2>
+            </div>
+
+                <div class="carousel-track" id="photo-t">
+                <div class="card">
+                    <div class="card-preview"><img src="resources\YOU_BA.png" alt="Photo 1"></div>
+                    <div class="card-info">
+                        <h3>Y.O.U Acne Removal Cream</h3>
+                        <p>Studio lighting and advanced skin retouching.</p>
+                        <button class="btn" onclick="op('img', 'resources/YOU_BA.png')">Explore Frame</button>
+                    </div>
+                </div>
+                </div>
+
+
+                <div class="carousel-track" id="photo-t">
+                <div class="card">
+                    <div class="card-preview"><img src="resources\2.png" alt="Photo 1"></div>
+                    <div class="card-info">
+                        <h3>OKENYS hair solution</h3>
+                        <p>Studio lighting and advanced skin retouching.</p>
+                        <button class="btn" onclick="op('img', 'resources/2.png')">Explore Frame</button>
+                    </div>
+                </div>
+                </div>
+
+                <div class="carousel-track" id="photo-t">
+                <div class="card">
+                    <div class="card-preview"><img src="resources\BLENDER.png" alt="Photo 1"></div>
+                    <div class="card-info">
+                        <h3>NEW Portable Blender</h3>
+                        <p>Studio lighting and advanced skin retouching.</p>
+                        <button class="btn" onclick="op('img', 'resources/BLENDER.png')">Explore Frame</button>
+                    </div>
+                </div>
+                </div>
+
+                <div class="carousel-track" id="photo-t">
+                <div class="card">
+                    <div class="card-preview"><img src="resources\Y.O.U.png" alt="Photo 1"></div>
+                    <div class="card-info">
+                        <h3>Y.O.U Acne Removal Cream</h3>
+                        <p>Studio lighting and advanced skin retouching.</p>
+                        <button class="btn" onclick="op('img', 'resources/Y.O.U.png')">Explore Frame</button>
+                    </div>
+                </div>
+                </div>
+
+                
+                <div class="carousel-track" id="photo-t">
+                <div class="card">
+                    <div class="card-preview"><img src="resources\OKENYS.png" alt="Photo 1"></div>
+                    <div class="card-info">
+                        <h3>OKENYS hair solution</h3>
+                        <p>Studio lighting and advanced skin retouching.</p>
+                        <button class="btn" onclick="op('img', 'resources/OKENYS.png')">Explore Frame</button>
+                    </div>
+                </div>
+                </div>
+
+                <div class="carousel-track" id="photo-t">
+                <div class="card">
+                    <div class="card-preview"><img src="resources\HOODIE.png" alt="Photo 1"></div>
+                    <div class="card-info">
+                        <h3>NEW Comfortable Hoodie</h3>
+                        <p>Studio lighting and advanced skin retouching.</p>
+                        <button class="btn" onclick="op('img', 'resources/HOODIE.png')">Explore Frame</button>
+                    </div>
+                </div>
+                </div>
+
+                
+
+
+        </section>
+
+        
+
+        <section id="websites">
+            <div class="section-header">
+                <h2>Web development</h2>
+            </div>
+            <div class="carousel-track" id="web-t">
+                <div class="card">
+                    <div class="card-preview"><img src="resources/cafeuno.png" alt="Web 1"></div>
+                    <div class="card-info">
+                        <h3>Cafe Uno Website</h3>
+                        <p>Built with modern React and Tailwind CSS.</p>
+                        <a href="https://christianpascual2508.github.io/cafeuno001/" target="_blank" class="btn">Launch Site</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="carousel-track" id="web-t">
+                    <div class="card">
+                        <div class="card-preview"><img src="resources/laklak.png" alt="Web 1"></div>
+                        <div class="card-info">
+                            <h3>Lakbay Website</h3>
+                            <p>Built with modern React and Tailwind CSS.</p>
+                            <a href="https://christianpascual2508.github.io/lakbay3/" target="_blank" class="btn">Launch Site</a>
+                        </div>
+                    </div>
+                </div>
+            
+        </section>
+
+
+
+
+
+        <section id="UI/UX">
+            <div class="section-header">
+                <h2>UI/UX design</h2>
+            </div>
+            <div class="carousel-track" id="UI-t">
+                <div class="card">
+                    <div class="card-preview"><img src="resources/Phub.png" alt="Java 1"></div>
+                    <div class="card-info">
+                        <h3>Project Hub UI/UX design</h3>
+                        <p>Figma based UI/UX Creation.</p>
+                        <a href="https://www.figma.com/design/2z1Zot9fUcrRpVWLZmAkWe/PHub_Prototype?node-id=0-1&t=klVjLZmSYqqM3h2D-1    " target="_blank" class="btn">View Source</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-track" id="UI-t">
+                <div class="card">
+                    <div class="card-preview"><img src="resources/Crypto Jobs.png" alt="Java 1"></div>
+                    <div class="card-info">
+                        <h3>Crypto Jobs UI/UX design</h3>
+                        <p>Figma based UI/UX Creation.</p>
+                        <a href="https://www.figma.com/design/sjRKVstVoCGIx25t5x107v/HCI-STYLEGUIDE_COPY?node-id=8-1625&t=8tzc4Rq4T51rjb2n-1" target="_blank" class="btn">View Source</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-track" id="UI-t">
+                <div class="card">
+                    <div class="card-preview"><img src="resources/Style Guide.png" alt="Java 1"></div>
+                    <div class="card-info">
+                        <h3>Cafe Uno UI/UX Style Guide</h3>
+                        <p>Figma based UI/UX Creation.</p>
+                        <a href="https://www.figma.com/design/GtVzrgdxS2sgYIeWkM4jmz/Andoks_APPDEV_StyleGuide?node-id=0-1&t=t6b0z3RCnGyBlwOz-1" target="_blank" class="btn">View Source</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="Blog">
+            <div class="section-header">
+                <h2>Blogging / Writing</h2>
+            </div>
+            <div class="carousel-track" id="blog-t">
+                <div class="card">
+                    <div class="card-preview"><img src="resources/B_dreamy.png" alt="Java 1"></div>
+                    <div class="card-info">
+                        <h3>Dreamy Shades of Sunset</h3>
+                        <p>Written adventure experience.</p>
+                        <a href="https://peakd.com/hive-163772/@blip-blop/dreamy-shades-of-sunset--a-family-boulevard-in-cadiz-city" target="_blank" class="btn">View Source</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-track" id="blog-t">
+                <div class="card">
+                    <div class="card-preview"><img src="resources/B_beach.png" alt="Java 1"></div>
+                    <div class="card-info">
+                        <h3>This is your sign!</h3>
+                        <p>Written adventure experience.</p>
+                        <a href="https://peakd.com/hive-163772/@blip-blop/its-your-sign-for-a-beach-royal-villa-beach-resort" target="_blank" class="btn">View Source</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-track" id="blog-t">
+                <div class="card">
+                    <div class="card-preview"><img src="resources/B_mambukal.png" alt="Java 1"></div>
+                    <div class="card-info">
+                        <h3>Mambukal resort</h3>
+                        <p>Written adventure experience.</p>
+                        <a href="https://peakd.com/hive-163772/@blip-blop/back-to-a-wildlife-journey-mambukal-resort-and-wildlife-sanctuary" target="_blank" class="btn">View Source</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-track" id="blog-t">
+                <div class="card">
+                    <div class="card-preview"><img src="resources/B_mountain.png" alt="Java 1"></div>
+                    <div class="card-info">
+                        <h3>Twin River Adventure!</h3>
+                        <p>Written adventure experience.</p>
+                        <a href="https://peakd.com/hive-163772/@blip-blop/come-and-join-my-refreshing-adventure-twin-river" target="_blank" class="btn">View Source</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-track" id="blog-t">
+                <div class="card">
+                    <div class="card-preview"><img src="resources/campuestuhan.png" alt="Java 1"></div>
+                    <div class="card-info">
+                        <h3>campuestuhan Resort</h3>
+                        <p>Written adventure experience.</p>
+                        <a href="https://peakd.com/hive-163772/@blip-blop/same-place-at-the-same-time-of-the-year-but-with-a-different-story-campuestuhan-highland-resort" target="_blank" class="btn">View Source</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-track" id="blog-t">
+                <div class="card">
+                    <div class="card-preview"><img src="resources/mountain2.png" alt="Java 1"></div>
+                    <div class="card-info">
+                        <h3>Mountain Hidden Gem</h3>
+                        <p>Written adventure experience.</p>
+                        <a href="https://peakd.com/hive-163772/@blip-blop/a-hidden-gem-in-the-mountains-of-negros-occidental-seventh-falls
+" target="_blank" class="btn">View Source</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Portfolio. All rights reserved.</p>
+    </footer>
+
+    <div id="modal" onclick="cl()">
+        <div id="modal-container"></div>
+    </div>
+
+    <script>
+        function sc(id, d) { document.getElementById(id).scrollBy({ left: d, behavior: 'smooth' }); }
+        
+        function op(type, src) {
+            const m = document.getElementById('modal');
+            const c = document.getElementById('modal-container');
+            m.style.display = 'flex';
+            if (type === 'img') {
+                c.innerHTML = `<img src="${src}" style="max-width:85vw; max-height:85vh; border-radius:20px; border: 1px solid var(--border);">`;
+            } else if (type === 'video') {
+                c.innerHTML = `<video width="1000" style="max-width:85vw; border-radius:20px;" controls autoplay><source src="${src}" type="video/mp4"></video>`;
+            }
+        }
+        function cl() { document.getElementById('modal').style.display = 'none'; }
+    </script>
+</body>
+</html>
